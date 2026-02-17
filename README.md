@@ -50,3 +50,21 @@ The agent follows a **3-phase agentic workflow**:
 
 ## 🗂️ Project Structure
 
+
+agentic-game-builder/
+│
+├── agent.py
+├── llm.py
+├── phases/
+│ ├── clarify.py
+│ ├── plan.py
+│ ├── generate.py
+│
+├── evaluation/
+│ └── metrics.py
+│
+├── Dockerfile
+├── requirements.txt
+└── README.md
+
+
